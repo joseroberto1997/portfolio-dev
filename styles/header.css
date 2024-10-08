@@ -1,0 +1,71 @@
+#intro {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 120px 0 57px 0;
+
+  }
+
+  .intro .avatar {
+    margin-bottom: 56px;
+  }
+
+  .intro .name {
+  font: var(--subtitle);
+  color: var(--color-gray-500);
+  margin-bottom: 8px;
+  }
+
+  .intro .name span {
+    color: var(--color-red);
+  }
+
+  .intro .occupation {
+    font: var(--title-lg);
+    color: var(--color-gray-600);
+    margin-bottom: 20px;
+  }
+
+  .intro .about {
+    font: var(--text-sm);
+    color: var(--color-gray-400);
+    margin-bottom: 80px;
+    text-align: center;
+    max-width: 680px;
+    width: 100%;
+  }
+
+  .skills {
+    margin-bottom: 94px;
+  }
+
+  .skills ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+  }
+
+  .skills ul li {
+    font: var(--text-md);
+    color: var(--color-gray-500);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: var(--color-gray-300);
+    border-radius: 30px;
+  }
+
+  .skills ul li img {
+    width: 24px;
+    height: 24px;
+  }
+}
