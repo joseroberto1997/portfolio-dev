@@ -35,6 +35,12 @@
   --text-sm: 400 14px/140% var(--font-family-mavenPro);
 }
 
+body {
+  font: var(--font-family-mavenPro);
+  color: var(--color-gray-600);
+  background-color: var(--color-gray-300);
+}
+
 
 a {
   text-decoration: none;
