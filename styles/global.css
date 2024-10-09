@@ -69,10 +69,12 @@ img {
   font: var(--subtitle);
   color: var(--color-red);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .subtitle-section {
   font: var(--title-md);
   color: var(--color-gray-600);
+  text-align: center;
 }
 
