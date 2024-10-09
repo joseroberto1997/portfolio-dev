@@ -1,0 +1,43 @@
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 0 144px 0;
+}
+
+.subtitle-section {
+  margin-bottom: 56px ;
+}
+
+.jobs .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.cards .card-item {
+  display: flex;
+  max-width: 330px;
+  flex-direction: column;
+  background-color: var(--color-gray-300);
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.cards .card-item:hover {
+  border: 1.5px solid var(--color-gray-400);
+}
+
+.cards .card-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.cards .card-item span {
+  font: var(--text-sm);
+  font-weight: 700;
+  margin-bottom: 8px;
+}

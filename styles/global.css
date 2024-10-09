@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 :root {
   /* Cores Principais */
   --color-red: #E3646E;
@@ -23,7 +27,7 @@
 
   --font-family-asap: 'Asap', sans-serif;
   --font-family-inconsolata: "Inconsolata", monospace;
-  --font-family-mavenPro: "Maven Pro", sans-serif;
+  --font-family-maven: "Maven Pro", sans-serif;
 
   --title-lg: 700 56px/120% var(--font-family-asap);
   --title-md: 700 24px/120% var(--font-family-asap);
@@ -31,14 +35,15 @@
 
   --subtitle: 400 20px/120% var(--font-family-inconsolata);
 
-  --text-md: 400 16px/140% var(--font-family-mavenPro);
-  --text-sm: 400 14px/140% var(--font-family-mavenPro);
+  --text-md: 400 16px/140% var(--font-family-maven);
+  --text-sm: 400 14px/140% var(--font-family-maven);
+  --text: 400 16px/140% var(--font-family-maven);
 }
 
 body {
-  font: var(--font-family-mavenPro);
+  font: var(--text);
   color: var(--color-gray-600);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-200);
 }
 
 
@@ -58,5 +63,16 @@ img {
 .container {
   max-width: 1040px;
   margin: 0 auto;
+}
+
+.title-section {
+  font: var(--subtitle);
+  color: var(--color-red);
+  margin-bottom: 8px;
+}
+
+.subtitle-section {
+  font: var(--title-md);
+  color: var(--color-gray-600);
 }
 
